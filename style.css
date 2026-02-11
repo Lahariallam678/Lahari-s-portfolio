@@ -1,0 +1,112 @@
+/* ===== Body ===== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #0a192f;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0a192f;
+  padding: 15px 40px;
+}
+
+.navbar h1 {
+  color: #fff;
+  font-size: 24px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; /* responsive */
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: #64ffda;
+}
+
+/* ===== Sections ===== */
+section {
+  max-width: 900px;
+  margin: 0 auto;       /* removed vertical margin */
+  padding: 10px 20px;   /* minimal padding */
+  border-top: 1px solid #e0e0e0; /* thin divider */
+}
+
+section:first-of-type {
+  border-top: none;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 8px;  /* very small spacing */
+  font-weight: bold;
+}
+
+/* ===== Lists ===== */
+ul {
+  list-style: disc inside;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* ===== Links ===== */
+a {
+  color: #0a68f5;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #153ff7;
+  text-decoration: underline;
+}
+
+/* ===== Resume Section ===== */
+#resume {
+  padding-top: 5px;
+  margin-top: 5px;
+}
+
+/* Resume Button */
+.resume-btn{
+  display: inline-block;
+  padding: 10px 15px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.resume-btn:hover{
+  background: #0056b3;
+}
+
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  padding: 15px 0;
+  background-color: #0a192f;
+  color: #fff;
+  font-size: 14px;
+}
